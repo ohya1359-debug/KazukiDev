@@ -1,0 +1,8 @@
+.box-one,
+.box-two {
+    display: block;
+}
+
+.box-one {
+    margin-bottom: 5px;
+}

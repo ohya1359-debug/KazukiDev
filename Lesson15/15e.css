@@ -1,0 +1,59 @@
+body {
+    height: 3000px;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.cloth-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.sale-tag {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+}
+
+.bottom-area {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.add-button {
+    background-color: white;
+    border: 1px solid black;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 12px;
+    transition: box-shadow 0.15s,
+    transform 0.15s;
+}
+
+.add-button:hover {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.add-button:active {
+    transform: scale(0.95);
+}

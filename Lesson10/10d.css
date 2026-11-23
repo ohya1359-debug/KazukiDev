@@ -1,0 +1,60 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px
+}
+
+.card {
+    display: inline-block;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    vertical-align: top;
+    margin-right: 15px;
+}
+
+.picture {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+
+.relate {
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+
+.my-icon{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    vertical-align: middle;
+    border-radius: 50px;
+}
+
+.mutual {
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(112, 112, 112);
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.add-button {
+    background-color: rgb(46, 128, 251);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
